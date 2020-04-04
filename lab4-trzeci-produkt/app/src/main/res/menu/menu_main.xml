@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menuexample.MainActivity">
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/menu_red"
+            android:title="Czerwony" />
+        <item
+            android:id="@+id/menu_green"
+            android:title="Zielony" />
+        <item
+            android:id="@+id/menu_yellow"
+            android:title="Żółty" />
+        <item
+            android:id="@+id/menu_blue"
+            android:title="Niebieski" />
+    </group>
+</menu>
