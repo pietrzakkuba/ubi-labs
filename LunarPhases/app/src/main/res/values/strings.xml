@@ -1,6 +1,26 @@
 <resources>
     <string name="app_name">Lunar Phases</string>
+
     <string name="title_today">Today</string>
     <string name="title_years">Years</string>
     <string name="title_settings">Settings</string>
+
+    <string name="today_title">Current Lunar Phase</string>
+    <string name="today_today">Today:</string>
+    <string name="today_previous">Previous new moon:</string>
+    <string name="today_next">Next full moon: </string>
+
+    <string name="years_title">Full Moons a Year</string>
+    <string name="years_year">Year:</string>
+    <string name="years_next_year">Next</string>
+    <string name="years_previous_year">Previous</string>
+
+    <string name="settings_hemisphere">Choose hemisphere</string>
+    <string name="settings_alg">Choose algorithm</string>
+    <string name="settings_north">Northern hemisphere</string>
+    <string name="settings_south">Southern hemisphere</string>
+    <string name="settings_alg0">Simple</string>
+    <string name="settings_alg1">Conway</string>
+    <string name="settings_alg2">Trig1</string>
+    <string name="settings_alg3">Trig2</string>
 </resources>

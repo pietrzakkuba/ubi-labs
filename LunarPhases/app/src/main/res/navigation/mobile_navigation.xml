@@ -8,13 +8,13 @@
     <fragment
         android:id="@+id/navigation_today"
         android:name="com.e.lunarphases.ui.today.TodayFragment"
-        android:label="@string/app_name"
+        android:label="@string/today_title"
         tools:layout="@layout/fragment_today" />
 
     <fragment
         android:id="@+id/navigation_years"
         android:name="com.e.lunarphases.ui.years.YearsFragment"
-        android:label="@string/title_years"
+        android:label="@string/years_title"
         tools:layout="@layout/fragment_years" />
 
     <fragment
