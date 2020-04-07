@@ -14,9 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val directory = File(this.filesDir, (R.string.settings_directory).toString())
-        directory.mkdirs()
-        val file = File(directory, "settings.txt")
+        val file = getFile(this.filesDir)
         if (!file.exists()) {
             file.createNewFile()
             file.writeText("2131230726\n2131230791")
@@ -29,5 +27,10 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_today, R.id.navigation_years, R.id.navigation_settings))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+    }
+    fun getFile(x: File) :File {
+        val directory = File(x, (R.string.settings_directory).toString())
+        directory.mkdirs()
+        return File(directory, "settings.txt")
     }
 }

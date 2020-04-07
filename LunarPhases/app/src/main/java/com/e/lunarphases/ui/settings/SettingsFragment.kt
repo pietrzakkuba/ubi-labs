@@ -28,17 +28,15 @@ class SettingsFragment : Fragment() {
         }
     }
     private fun readSetup() {
-        val directory = File(context?.filesDir, (R.string.settings_directory).toString())
-        val file = File(directory, "settings.txt")
-        val data = file.readLines()
-        data[0].toInt().let { hemiGroup.check(it) }
-        data[1].toInt().let { algGroup.check(it) }
+        val file = context?.filesDir?.let { MainActivity().getFile(it) }
+        val data = file?.readLines()
+        data?.get(0)?.toInt().let { hemiGroup.check(it!!) }
+        data?.get(1)?.toInt().let { algGroup.check(it!!) }
     }
     private fun writeSetup() {
         val setup = hemiGroup.checkedRadioButtonId.toString() + "\n" + algGroup.checkedRadioButtonId.toString()
-        val directory = File(context?.filesDir, (R.string.settings_directory).toString())
-        val file = File(directory, "settings.txt")
-        file.writeText(setup)
+        val file = context?.filesDir?.let { MainActivity().getFile(it) }
+        file?.writeText(setup)
         Toast.makeText(activity, R.string.settings_toast, Toast.LENGTH_SHORT).show()
     }
 //    hemiGroup

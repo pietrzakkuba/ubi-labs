@@ -13,7 +13,7 @@ class Calculator {
         val now = Date(year, month - 1, day, 20, 35, 0)
         val new_moon = Date(1970, 0, 7, 20, 35, 0)
         val phase = ((now.time - new_moon.time) / 1000.0) % lp
-        return floor(phase / (24.0 * 3600.0)).toInt() + 2
+        return floor(phase / (24.0 * 3600.0)).toInt()
     }
 
     fun conway(year: Int, month: Int, day: Int): Int {
