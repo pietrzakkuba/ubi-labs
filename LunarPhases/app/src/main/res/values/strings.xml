@@ -36,4 +36,6 @@
     <string name="settings_alg1">Conway</string>
     <string name="settings_alg2">Trig1</string>
     <string name="settings_alg3">Trig2</string>
+    <string name="settings_toast">Settings saved</string>
+    <string name="settings_directory">LunarPhases</string>
 </resources>
