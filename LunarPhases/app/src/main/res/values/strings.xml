@@ -14,6 +14,19 @@
     <string name="years_year">Year:</string>
     <string name="years_next_year">Next</string>
     <string name="years_previous_year">Previous</string>
+    <string name="t1">1st full moon:</string>
+    <string name="t2">2nd full moon:</string>
+    <string name="t3">3rd full moon:</string>
+    <string name="t4">4th full moon:</string>
+    <string name="t5">5th full moon:</string>
+    <string name="t6">6th full moon:</string>
+    <string name="t7">7th full moon:</string>
+    <string name="t8">8th full moon:</string>
+    <string name="t9">9th full moon:</string>
+    <string name="t10">10th full moon:</string>
+    <string name="t11">11th full moon:</string>
+    <string name="t12">12th full moon:</string>
+    <string name="t13">13th full moon:</string>
 
     <string name="settings_hemisphere">Choose hemisphere</string>
     <string name="settings_alg">Choose algorithm</string>

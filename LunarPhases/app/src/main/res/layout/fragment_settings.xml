@@ -24,6 +24,7 @@
 
 
             <RadioGroup
+                android:id="@+id/hemiGroup"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
@@ -47,6 +48,7 @@
             </RadioGroup>
 
             <RadioGroup
+                android:id="@+id/algGroup"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 

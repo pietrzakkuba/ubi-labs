@@ -35,7 +35,7 @@
                 android:paddingTop="20dp"
                 android:gravity="center_horizontal"
                 android:text="@string/today_today"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/previousNewMoonTextView"
@@ -44,7 +44,7 @@
                 android:paddingTop="20dp"
                 android:gravity="center_horizontal"
                 android:text="@string/today_previous"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/nextFullMoonTextView"
@@ -54,7 +54,7 @@
                 android:paddingBottom="20dp"
                 android:gravity="center_horizontal"
                 android:text="@string/today_next"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
     </ScrollView>

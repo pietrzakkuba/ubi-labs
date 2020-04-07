@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:text="@string/years_year"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/previousYearButton"
@@ -45,16 +45,135 @@
             android:id="@+id/SettingsScrollView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:clipToPadding="false">
+            android:clipToPadding="false"
+            >
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingBottom="20dp">
 
 <!--                next full moons here-->
 
+                <TextView
+                    android:id="@+id/fullMoon1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t1"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t2"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t3"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t4"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t5"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t6"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t7"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t8"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t9"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t10"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t11"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t12"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
+                <TextView
+                    android:id="@+id/fullMoon13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/t13"
+                    android:textSize="18sp"
+                    tools:ignore="RtlSymmetry" />
             </LinearLayout>
         </ScrollView>
 
