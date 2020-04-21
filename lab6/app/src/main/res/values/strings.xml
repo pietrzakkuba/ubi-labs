@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DatabaseExample</string>
+    <string name="product_id">ID produktu</string>
+    <string name="unknown">Nieznane</string>
+    <string name="product_name">Nazwa produktu</string>
+    <string name="product_amount">Ilość produktu</string>
+    <string name="add_button">Dodaj</string>
+    <string name="delete_button">Usuń</string>
+    <string name="search_button">Znajdź</string>
+</resources>

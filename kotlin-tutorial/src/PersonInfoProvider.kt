@@ -11,7 +11,8 @@ interface PersonInfoProvider {
  }
 
 fun main() {
+    val provider = BasicInfoProvider()
 
-    BasicInfoProvider().printInfo(Person("Adam"))
+    provider.printInfo(Person())
 
 }

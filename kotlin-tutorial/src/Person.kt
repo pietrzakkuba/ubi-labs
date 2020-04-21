@@ -6,7 +6,7 @@ class Person(val firstName: String = "Peter", val lastName: String = "Parker") {
             println("new nickname is $value")
         }
         get() {
-            println("the returned value is $field")
+//            println("the returned value is $field")
             return field
         }
 
